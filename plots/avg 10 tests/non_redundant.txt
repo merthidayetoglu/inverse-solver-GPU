@@ -1,0 +1,68 @@
+N=262144, L=6, inc=-1, t=256,
+        avg time = 41.640800 milli-secconds,
+        MLFMA_time = 0.044726, nearFieldTime = 0.035690, farFieldTime = 0.004755,
+        transferTime = 0.000752, computationTime = 0.035605
+N=1048576, L=7, inc=-1, t=256,
+        avg time = 156.858900 milli-secconds,
+        MLFMA_time = 0.166777, nearFieldTime = 0.136305, farFieldTime = 0.017830,
+        transferTime = 0.002227, computationTime = 0.136210
+N=4194304, L=8, inc=-1, t=256,
+        avg time = 611.517800 milli-secconds,
+        MLFMA_time = 0.652835, nearFieldTime = 0.532228, farFieldTime = 0.069224,
+        transferTime = 0.009567, computationTime = 0.532139
+N=16777216, L=9, inc=-1, t=256,
+        avg time = 2449.283000 milli-secconds,
+        MLFMA_time = 2.601840, nearFieldTime = 2.137138, farFieldTime = 0.277354,
+        transferTime = 0.034201, computationTime = 2.137043
+N=16777216, L=9, inc=0, t=64,
+        avg time = 930.377600 milli-secconds,
+        MLFMA_time = 1.078182, nearFieldTime = 0.526802, farFieldTime = 0.370462,
+        transferTime = 0.032583, computationTime = 0.526699
+N=16777216, L=9, inc=1, t=16,
+        avg time = 921.423500 milli-secconds,
+        MLFMA_time = 1.096089, nearFieldTime = 0.132339, farFieldTime = 0.752471,
+        transferTime = 0.036029, computationTime = 0.132238
+N=65536, L=5, inc=0, t=64,
+        avg time = 5.570400 milli-secconds,
+        MLFMA_time = 0.006638, nearFieldTime = 0.003097, farFieldTime = 0.001862,
+        transferTime = 0.000283, computationTime = 0.003040
+N=65536, L=5, inc=1, t=16,
+        avg time = 5.383500 milli-secconds,
+        MLFMA_time = 0.006635, nearFieldTime = 0.000865, farFieldTime = 0.003789,
+        transferTime = 0.000337, computationTime = 0.000787
+N=262144, L=6, inc=0, t=64,
+        avg time = 16.646700 milli-secconds,
+        MLFMA_time = 0.019678, nearFieldTime = 0.009223, farFieldTime = 0.006266,
+        transferTime = 0.000732, computationTime = 0.009140
+N=262144, L=6, inc=1, t=16,
+        avg time = 14.998000 milli-secconds,
+        MLFMA_time = 0.018151, nearFieldTime = 0.002218, farFieldTime = 0.011640,
+        transferTime = 0.000736, computationTime = 0.002143
+N=1048576, L=7, inc=0, t=64,
+        avg time = 65.287200 milli-secconds,
+        MLFMA_time = 0.075347, nearFieldTime = 0.036750, farFieldTime = 0.025790,
+        transferTime = 0.002267, computationTime = 0.036667
+N=1048576, L=7, inc=1, t=16,
+        avg time = 63.920000 milli-secconds,
+        MLFMA_time = 0.073800, nearFieldTime = 0.009375, farFieldTime = 0.051786,
+        transferTime = 0.002281, computationTime = 0.009297
+N=4194304, L=8, inc=0, t=64,
+        avg time = 237.060800 milli-secconds,
+        MLFMA_time = 0.273910, nearFieldTime = 0.134331, farFieldTime = 0.093899,
+        transferTime = 0.008319, computationTime = 0.134242
+N=4194304, L=8, inc=1, t=16,
+        avg time = 229.787900 milli-secconds,
+        MLFMA_time = 0.267801, nearFieldTime = 0.033513, farFieldTime = 0.187315,
+        transferTime = 0.008449, computationTime = 0.033426
+N=65536, L=5, inc=-1, t=256,
+        avg time = 13.328400 milli-secconds,
+        MLFMA_time = 0.014627, nearFieldTime = 0.010990, farFieldTime = 0.001542,
+        transferTime = 0.000359, computationTime = 0.010910
+N=65536, L=5, inc=0, t=64,
+        avg time = 5.436500 milli-secconds,
+        MLFMA_time = 0.006578, nearFieldTime = 0.002966, farFieldTime = 0.001844,
+        transferTime = 0.000291, computationTime = 0.002911
+N=65536, L=5, inc=1, t=16,
+        avg time = 4.781900 milli-secconds,
+        MLFMA_time = 0.005992, nearFieldTime = 0.000769, farFieldTime = 0.003341,
+        transferTime = 0.000314, computationTime = 0.000702

@@ -1,0 +1,90 @@
+N=262144, L=6, inc=-1, t=256,
+        avg time = 46.172100 milli-secconds,
+        MLFMA_time = 0.045115, nearFieldTime = 0.039672, farFieldTime = 0.005273,
+        transferTime = 0.000000, computationTime = 0.039586
+        duplicationTime = 0.000000
+N=1048576, L=7, inc=-1, t=256,
+        avg time = 154.525600 milli-secconds,
+        MLFMA_time = 0.152026, nearFieldTime = 0.134206, farFieldTime = 0.017656,
+        transferTime = 0.000000, computationTime = 0.134114
+        duplicationTime = 0.000000
+N=4194304, L=8, inc=-1, t=256,
+        avg time = 610.803200 milli-secconds,
+        MLFMA_time = 0.601808, nearFieldTime = 0.532339, farFieldTime = 0.069289,
+        transferTime = 0.000000, computationTime = 0.532243
+        duplicationTime = 0.000000
+N=16777216, L=9, inc=-1, t=256,
+        avg time = 2463.322000 milli-secconds,
+        MLFMA_time = 2.426159, nearFieldTime = 2.136080, farFieldTime = 0.289875,
+        transferTime = 0.000000, computationTime = 2.135980
+        duplicationTime = 0.000000
+N=262144, L=6, inc=0, t=64,
+        avg time = 19.535300 milli-secconds,
+        MLFMA_time = 0.018503, nearFieldTime = 0.010926, farFieldTime = 0.007414,
+        transferTime = 0.000000, computationTime = 0.010839
+        duplicationTime = 0.000000
+N=262144, L=6, inc=1, t=16,
+        avg time = 17.056900 milli-secconds,
+        MLFMA_time = 0.016037, nearFieldTime = 0.002543, farFieldTime = 0.013324,
+        transferTime = 0.000000, computationTime = 0.002462
+        duplicationTime = 0.000000
+N=1048576, L=7, inc=0, t=64,
+        avg time = 65.168000 milli-secconds,
+        MLFMA_time = 0.062583, nearFieldTime = 0.036670, farFieldTime = 0.025737,
+        transferTime = 0.000000, computationTime = 0.036589
+        duplicationTime = 0.000000
+N=1048576, L=7, inc=1, t=16,
+        avg time = 63.906400 milli-secconds,
+        MLFMA_time = 0.061331, nearFieldTime = 0.009373, farFieldTime = 0.051758,
+        transferTime = 0.000000, computationTime = 0.009291
+        duplicationTime = 0.000000
+N=4194304, L=8, inc=0, t=64,
+        avg time = 237.469400 milli-secconds,
+        MLFMA_time = 0.228746, nearFieldTime = 0.134546, farFieldTime = 0.094010,
+        transferTime = 0.000000, computationTime = 0.134463
+        duplicationTime = 0.000000
+N=4194304, L=8, inc=1, t=16,
+        avg time = 227.464300 milli-secconds,
+        MLFMA_time = 0.218506, nearFieldTime = 0.033259, farFieldTime = 0.185060,
+        transferTime = 0.000000, computationTime = 0.033183
+        duplicationTime = 0.000000
+N=16777216, L=9, inc=0, t=64,
+        avg time = 943.844900 milli-secconds,
+        MLFMA_time = 0.906284, nearFieldTime = 0.529709, farFieldTime = 0.376377,
+        transferTime = 0.000000, computationTime = 0.529611
+        duplicationTime = 0.000000
+N=16777216, L=9, inc=1, t=16,
+        avg time = 920.722800 milli-secconds,
+        MLFMA_time = 0.884482, nearFieldTime = 0.133110, farFieldTime = 0.751171,
+        transferTime = 0.000000, computationTime = 0.133020
+        duplicationTime = 0.000000
+N=65536, L=4, inc=-1, t=256,
+        avg time = 12.339660 milli-secconds,
+        MLFMA_time = 0.011645, nearFieldTime = 0.010067, farFieldTime = 0.001407,
+        transferTime = 0.000000, computationTime = 0.009990
+        duplicationTime = 0.000000
+N=16384, L=4, inc=0, t=64,
+        avg time = 1.306980 milli-secconds,
+        MLFMA_time = 0.001036, nearFieldTime = 0.000580, farFieldTime = 0.000369,
+        transferTime = 0.000000, computationTime = 0.000538
+        duplicationTime = 0.000000
+N=16384, L=4, inc=1, t=16,
+        avg time = 1.335600 milli-secconds,
+        MLFMA_time = 0.001075, nearFieldTime = 0.000210, farFieldTime = 0.000784,
+        transferTime = 0.000000, computationTime = 0.000169
+        duplicationTime = 0.000000
+N=65536, L=5, inc=-1, t=256,
+        avg time = 12.227120 milli-secconds,
+        MLFMA_time = 0.011505, nearFieldTime = 0.009944, farFieldTime = 0.001389,
+        transferTime = 0.000000, computationTime = 0.009867
+        duplicationTime = 0.000000
+N=65536, L=5, inc=0, t=64,
+        avg time = 4.669500 milli-secconds,
+        MLFMA_time = 0.004117, nearFieldTime = 0.002478, farFieldTime = 0.001484,
+        transferTime = 0.000000, computationTime = 0.002401
+        duplicationTime = 0.000000
+N=65536, L=5, inc=1, t=16,
+        avg time = 4.277140 milli-secconds,
+        MLFMA_time = 0.003749, nearFieldTime = 0.000668, farFieldTime = 0.002946,
+        transferTime = 0.000000, computationTime = 0.000610
+        duplicationTime = 0.000000

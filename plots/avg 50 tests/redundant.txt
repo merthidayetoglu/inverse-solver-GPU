@@ -1,0 +1,27 @@
+16777216	9	0	64	927.751980	0.893436	0.526557	0.366677	0.000000	0.526464
+16777216	9	1	16	900.386960	0.866678	0.131954	0.734520	0.000000	0.131871
+65536	4	-1	256	2	10.609680	0.017975	0.016369	0.001446	0.007864	0.008425
+16384	4	0	64	2	1.320480	0.001692	0.001239	0.000367	0.000594	0.000603
+16384	4	1	16	2	1.319500	0.001253	0.000380	0.000789	0.000164	0.000174
+65536	5	-1	256	2	10.117620	0.017465	0.015949	0.001364	0.007844	0.008029
+65536	5	0	64	2	4.223000	0.004397	0.002760	0.001485	0.000614	0.002067
+65536	5	1	16	2	4.184620	0.003878	0.000775	0.002956	0.000135	0.000565
+262144	6	-1	256	2	35.006800	0.042076	0.037375	0.004542	0.007864	0.029429
+262144	6	0	64	2	14.470720	0.014234	0.008174	0.005820	0.000606	0.007453
+262144	6	1	16	2	14.587680	0.013974	0.002222	0.011586	0.000164	0.001982
+N=262144, L=6, inc=-1, t=256, redundancyFactor=2,for Box=16, requesting 18 MB mem...
+        avg time = 34.116760 milli-secconds,
+        MLFMA_time = 0.041170, nearFieldTime = 0.036592, farFieldTime = 0.004416,
+        transferTime = 0.007864, computationTime = 0.028647
+N=1048576, L=7, inc=-1, t=256, redundancyFactor=2,for Box=16, requesting 18 MB mem...
+        avg time = 136.384840 milli-secconds,
+        MLFMA_time = 0.142331, nearFieldTime = 0.124920, farFieldTime = 0.017233,
+        transferTime = 0.007860, computationTime = 0.116975
+N=4194304, L=8, inc=-1, t=256, redundancyFactor=2,for Box=16, requesting 18 MB mem...
+        avg time = 548.668740 milli-secconds,
+        MLFMA_time = 0.622168, nearFieldTime = 0.552743, farFieldTime = 0.069222,
+        transferTime = 0.079647, computationTime = 0.473004
+N=16777216, L=9, inc=-1, t=256, redundancyFactor=2,for Box=16, requesting 18 MB mem...
+        avg time = 2209.002860 milli-secconds,
+        MLFMA_time = 2.266303, nearFieldTime = 1.991192, farFieldTime = 0.274896,
+        transferTime = 0.079770, computationTime = 1.911331

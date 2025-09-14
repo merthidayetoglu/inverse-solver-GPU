@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="kernels.cu">
+      <Filter>treeSolvers</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FMMFourierTreeGPU.cu">
+      <Filter>treeSolvers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FMMFourierTree.cpp">
+      <Filter>treeSolvers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FMMFourierTree.h">
+      <Filter>treeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="FMMFourierTreeGPU.cuh">
+      <Filter>treeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="kernels.cuh">
+      <Filter>treeSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{01bbab2e-b174-4279-a636-6fa8b8d36703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="treeSolvers">
+      <UniqueIdentifier>{3d2d3f35-47e7-442a-994d-be93f4b82ee9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
